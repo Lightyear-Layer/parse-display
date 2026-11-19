@@ -1,6 +1,6 @@
 [package]
 name = "parse-display"
-version = "0.11.0"
+version = "0.11.1"
 edition = "2024"
 authors = ["frozenlib"]
 license = "MIT OR Apache-2.0"
@@ -18,7 +18,7 @@ std = ["regex", "regex-syntax", "parse-display-derive/std"]
 docs = []
 
 [dependencies]
-parse-display-derive = { version = "=0.11.0", path = "../parse-display-derive" }
+parse-display-derive = { version = "=0.11.1", path = "../parse-display-derive", registry = "kellnr" }
 regex = { workspace = true, optional = true }
 regex-syntax = { workspace = true, optional = true }
 
